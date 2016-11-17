@@ -1,0 +1,14 @@
+.main-height{
+    height:100%;
+}
+
+.main-left {
+    /*float: left;*/
+    /*width: 64px;*/
+}
+
+.main-right {
+    /*position: fixed;*/
+    /*display: inline;*/
+    /*width: 100%;*/
+}

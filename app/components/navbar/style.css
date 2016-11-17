@@ -1,0 +1,61 @@
+.nav-bar {
+    background-color: #222;
+    border-color: #080808;
+    border-radius: 0;
+}
+
+.nav-bar > .container {
+    width: 100%;
+}
+
+.nav-bar > .container > .navbar-header > .navbar-brand > a {
+    font-weight: 600;
+    color: white;
+    margin-left: 15px;
+}
+
+.nav-bar > .container > .navbar-header > .navbar-brand > i {
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+
+.navbar-nav > .dropdown > .dropdown-toggle > div{
+    display: inline;
+}
+
+.navbar-nav > .dropdown > .dropdown-toggle > div > i{
+    margin-right: 3px;
+}
+
+.navbar-nav > .dropdown > .dropdown-toggle > .caret{
+    float: right;
+    margin: 9px 7px;
+}
+
+.navbar-nav > li {
+    border-left: 1px solid #ffffff;
+    font-size: 14px;
+}
+
+.nav-bar-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 7px;
+    position: absolute;
+}
+
+#nav-bar-avatar > .caret {
+    display: none;
+}
+
+#nav-bar-avatar > div > div > i {
+    transform:rotate(90deg);
+    font-weight: 900;
+}
+
+#nav-bar-avatar > div > div {
+    margin-left: 40px;
+}
